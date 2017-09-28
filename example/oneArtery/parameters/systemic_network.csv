@@ -1,0 +1,2 @@
+number,<R0>(cm),<A0> (cm^2), <Thickness> (cm), <Length>(cm), <N>(mesh points), <E>(10^6 Pa), <beta>(10^6 Pa/cm), <Cv>(10^4 cm^2/s), <fric>, <solver>, <order>
+0,1.47,6.788667565142183,0.2,350,3200,0.01275,0.0008877063186923836,0.0,40,FV,2
