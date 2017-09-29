@@ -1,3 +1,6 @@
+MKDIR=mkdir
+
+
 objects= $(OBJ_DIR)/main.o $(OBJ_DIR)/conjunction.o $(OBJ_DIR)/artery_MC.o $(OBJ_DIR)/artery_FV.o $(OBJ_DIR)/artery.o $(OBJ_DIR)/parser.o $(OBJ_DIR)/generalParameters.o \
 	$(OBJ_DIR)/vesselProperties.o $(OBJ_DIR)/matrix.o $(OBJ_DIR)/alger.o $(OBJ_DIR)/VECT.o $(OBJ_DIR)/network_arts_conjuncs.o \
 	 $(OBJ_DIR)/stringManage.o $(OBJ_DIR)/Error.o $(OBJ_DIR)/triDiagMatrix.o 
@@ -14,7 +17,11 @@ LDFLAGS=-fopenmp -pthread
 #CFLAGS=-I$(INC_DIR) -D NDEBUG -O3 -openmp -pthread -liomp5
 #LDFLAGS=-openmp -liomp5 -pthread
 
-all: bloodflow 
+all: start bloodflow 
+
+start:
+	 - $(MKDIR) obj
+	 - $(MKDIR) bin 
 
 bloodflow: $(objects)
 	$(CXX) $(LDFLAGS) -o bin/bloodflow $(objects) 
