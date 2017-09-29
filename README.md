@@ -2,6 +2,10 @@
 ```
 make
 ```
+
+# Usage
+```
+bin/bloodlfow
 Usage: bloodflow -i inputFolder -o dataFolder [-s string] [-q] [-v]
 -h --help	Display this usage information.
 -i --input	folderName Parameter files to initalize the computing.
@@ -9,7 +13,7 @@ Usage: bloodflow -i inputFolder -o dataFolder [-s string] [-q] [-v]
 -s --suffix	string Suffix to the names of output files.
 -q --sequential sequential computing, otherwise using openMP.
 -v --verbose	Print verbose messages.
-
+```
 # run examples
 ### one artery segment
 ```
