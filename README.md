@@ -27,3 +27,12 @@ bin/bloodflow  -i example/oneBranching/param/ -o example/oneBranching/data_resul
 ```
 bin/bloodflow  -i example/branchConvergence/param/ -o example/branchConvergence/data_result/
 ```
+# animation of some numerical results
+## a pulse propagates through an arterial cirlcle
+![Alt Text](https://github.com/XavierAtShanghai/biosim/blob/master/animation/convert.gif)
+## pressure wave propagation through the whole arterial system of an adult human
+![Alt Text](https://github.com/XavierAtShanghai/biosim/blob/master/animation/heart2fig.gif)
+## pressure wave propagtion through the arterial network of a kindey of mouse
+![Alt Text](https://github.com/XavierAtShanghai/biosim/blob/master/animation/kidneyM1.gif)
+
+
