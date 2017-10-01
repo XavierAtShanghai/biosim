@@ -9,6 +9,7 @@ INC_DIR=include
 SRC_DIR=src
 OBJ_DIR=obj
 
+# specify the c++ compiler in your machine
 CXX=g++-7 
 CFLAGS=-I$(INC_DIR) -D NDEBUG -O3 -fopenmp -pthread  
 LDFLAGS=-fopenmp -pthread
