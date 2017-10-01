@@ -1,6 +1,5 @@
 MKDIR=mkdir
 
-
 objects= $(OBJ_DIR)/main.o $(OBJ_DIR)/conjunction.o $(OBJ_DIR)/artery_MC.o $(OBJ_DIR)/artery_FV.o $(OBJ_DIR)/artery.o $(OBJ_DIR)/parser.o $(OBJ_DIR)/generalParameters.o \
 	$(OBJ_DIR)/vesselProperties.o $(OBJ_DIR)/matrix.o $(OBJ_DIR)/alger.o $(OBJ_DIR)/VECT.o $(OBJ_DIR)/network_arts_conjuncs.o \
 	 $(OBJ_DIR)/stringManage.o $(OBJ_DIR)/Error.o $(OBJ_DIR)/triDiagMatrix.o 
