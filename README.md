@@ -2,7 +2,6 @@
 ```
 make
 ```
-
 # Usage
 ```
 bin/bloodlfow
@@ -35,4 +34,8 @@ bin/bloodflow  -i example/branchConvergence/param/ -o example/branchConvergence/
 ## pressure wave propagtion through the arterial network of a kindey of mouse
 ![Alt Text](https://github.com/XavierAtShanghai/biosim/blob/master/animation/kidneyM1.gif)
 
-
+# if this code is helpful for your research, please cite the following article:
+```
+WANG, Xiaofei, FULLANA, Jose-Maria, et LAGRÉE, Pierre-Yves. Verification and comparison of four numerical schemes for a 1D viscoelastic blood flow model. Computer methods in biomechanics and biomedical engineering, 2015, vol. 18, no 15, p. 1704-1725.
+MLA	
+```
