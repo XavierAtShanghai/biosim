@@ -36,7 +36,7 @@ bin/bloodflow  -i example/branchConvergence/param/ -o example/branchConvergence/
 
 # If this code is helpful for your research, please cite the following article:
 ```
-WANG, Xiaofei, FULLANA, Jose-Maria, et LAGRÉE, Pierre-Yves.
+Wang, Xiaofei and Fullana, Jose-Maria and Lagr{\'e}e, Pierre-Yves
 Verification and comparison of four numerical schemes for a 1D viscoelastic blood flow model.
 Computer methods in biomechanics and biomedical engineering, 
 2015, vol. 18, no 15, p. 1704-1725.	
